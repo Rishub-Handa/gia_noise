@@ -17,7 +17,6 @@ The following explains my thought process in data collection, feature extraction
 1. Data generation 
 
 2. Data cleanup/preprocessing 
-- Split m4a files: https://audiotrimmer.com/
 
 3. Feature extraction 
 
@@ -49,6 +48,7 @@ To address noise, whenever sampling data, also take a sample of the noise (sound
 
 ## Preprocessing: 
 - Noisereduce python library uses spectral gating to suppress noise 
+- Chop up data into 5 second clips. Remove all clips with small amplitudes. Make interface to quickly decide if clip is noise/bark. 
 
 ### Spectral gating: 
 Use fourier transforms to get the frequency spectrum (pure tones) of the noise

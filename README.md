@@ -98,9 +98,13 @@ Classify narrow vs wide frequency band signals. Split signal into 7 frequency su
 ## References 
 
 CNN for audio: https://towardsdatascience.com/cnns-for-audio-classification-6244954665ab
+
 Music feature extraction: https://towardsdatascience.com/extract-features-of-music-75a3f9bc265d
-Audio classifier: https://medium.com/@anonyomous.ut.grad.student/building-an-audio-classifier-f7c4603aa989 
+
+Audio classifier: https://medium.com/@anonyomous.ut.grad.student/building-an-audio-classifier-f7c4603aa989
+
 Mel Spectrogram: https://towardsdatascience.com/getting-to-know-the-mel-spectrogram-31bca3e2d9d0, https://medium.com/analytics-vidhya/understanding-the-mel-spectrogram-fca2afa2ce53 
+
 MFCC: https://medium.com/prathena/the-dummys-guide-to-mfcc-aceab2450fd#:~:text=Mel%20scale%20is%20a%20scale,in%20speech%20at%20lower%20frequencies 
 
 
